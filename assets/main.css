@@ -1,0 +1,113 @@
+@import url(./global.css);
+@import url(./reset.css);
+
+header {
+    display: grid;
+    grid-template: repeat(1, 1fr) / repeat(3, 1fr);
+    height: 3.5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-left {
+    display: flex;
+    gap: 25px;
+    margin: 10px;
+}
+
+.header-left-lin {
+    width: 25px;
+    height: 20px;
+    margin-left: 20px;
+}
+
+.left-lin {
+    border: 1px solid black;
+    width: 20px;
+    margin: 4px;
+}
+
+.header-left-img img {
+    width: 100px;
+}
+
+.header-center {
+    border: 1px solid black;
+    border-radius: 25px;
+    height: 2rem;
+    width: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button img {
+    width: 18px;
+    background-color: transparent;
+}
+
+.header-center-input {
+    width: 38rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    overflow: hidden;
+    margin: 2rem;
+}
+
+input[type="text"] {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.header-right {
+    display: flex;
+    justify-content: end;
+    margin: 0 20px;
+}
+
+.chanel {
+    border-radius: 25px;
+    width: 40px;
+    height: 40px;
+}
+
+main {
+    display: flex;
+    margin: 10px;
+}
+
+.aside-content {
+    display: grid;
+    /* border: 1px solid red; */
+    width: 15%;
+    height: 34rem;
+}   
+
+.main-content {
+    padding-top: 10px;
+    margin-left: 20px;
+    display: grid;
+    /* border: 1px solid red; */
+    width: 85%;
+    height: 34rem;
+    grid-template: repeat(3, 1fr) / repeat(4, 1fr);
+    gap: 5px;
+}
+
+.item .img img {
+    width: 73%;
+}
+
+.aside-img {
+    display: flex;
+    justify-content: flex-start;
+    /* border: 1px solid black; */
+}
+
+.aside-img p {
+    margin-left: 15px;
+}
